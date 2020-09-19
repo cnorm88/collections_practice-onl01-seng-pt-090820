@@ -47,3 +47,6 @@ def kesha_maker(array)
   character.join
 end
 end  
+
+def find_a(array)
+  
