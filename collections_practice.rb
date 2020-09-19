@@ -28,4 +28,8 @@ def swap_elements(array)
   end
 end
 
-
+def reverse_array(num)
+  num.sort do |a,b|
+    num.index(a) <=> num.index(b)
+  end
+end
