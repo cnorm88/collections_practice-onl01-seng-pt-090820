@@ -4,8 +4,8 @@ def sort_array_asc(num)
 end
 end
 
-def sort_array_asc(num)
+def sort_array_desc(num)
   num.sort do |a,b| 
-    a<=>b
+    b<=>a
 end
 end
