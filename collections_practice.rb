@@ -33,3 +33,17 @@ def reverse_array(num)
     num.index(b) <=> num.index(a)
   end
 end
+
+def kesha_maker(array)
+  array.map do |char|
+    char = char.split('')
+    character = char.map.with_index do |money, index|
+      if index == 2
+        "$"
+      else
+        money
+      end
+  end
+  character.join
+end
+end  
