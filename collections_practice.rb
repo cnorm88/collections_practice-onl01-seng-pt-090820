@@ -49,7 +49,7 @@ end
 end  
 
 def find_a(array)
-  array.include? do |char|
+  array.select do |char|
    char[0] == "a"
   end
 end
