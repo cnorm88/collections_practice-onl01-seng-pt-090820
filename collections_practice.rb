@@ -53,3 +53,4 @@ def find_a(array)
    char[0] == "a"
   end
 end
+
