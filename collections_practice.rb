@@ -30,6 +30,6 @@ end
 
 def reverse_array(num)
   num.sort do |a,b|
-    num.index(a) <=> num.index(b)
+    num.index(b) <=> num.index(a)
   end
 end
